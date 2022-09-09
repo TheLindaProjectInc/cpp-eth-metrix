@@ -91,7 +91,6 @@ ChainParams ChainParams::loadConfig(
     setOptionalU256Parameter(cp.minimumDifficulty, c_minimumDifficulty);
     setOptionalU256Parameter(cp.difficultyBoundDivisor, c_difficultyBoundDivisor);
     setOptionalU256Parameter(cp.durationLimit, c_durationLimit);
-    setOptionalU256Parameter(mip3ForkBlock, c_mip3ForkBlock);
 
     if (params.count(c_chainID))
         cp.chainID = int(u256(fromBigEndian<u256>(fromHex(params.at(c_chainID).get_str()))));

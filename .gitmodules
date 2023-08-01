@@ -4,7 +4,7 @@
 [submodule "evmc"]
 	path = evmc
 	url = https://github.com/ethereum/evmc
-[submodule "cable"]
+[submodule "cmake/cable"]
 	path = cmake/cable
 	url = https://github.com/ethereum/cable
 [submodule "ethash"]
